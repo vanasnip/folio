@@ -1,4 +1,55 @@
+html,
+body {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+ul.ul-skills {
+	padding-left: 0;
+	padding-right: 0;}
+
 li.skills {
 	list-style: none;
 	text-align: center;
 }
+
+li.skills-html {background-color: #e44d26;}
+li.skills-css {background-color: #1572b6;}
+li.skills-bootstrap {background-color: #5b4282;}
+li.skills-js {background-color: #e8c92d;}
+li.skills-angular {background-color: #dd0031;}
+li.skills-gulp {background-color: #ed8184;}
+li.skills-git {background-color: #f34f29;}
+li.skills-phot {background-color: #80b5e2;}
+li.skills-illust {background-color: #faa625;}
+li.skills-inksca {background-color: #000;}
+
+section.heading {
+	background-color: #bbc3ca;
+}
+
+section.heading {
+	font-family: ralewayExLi;
+	font-weight: 700;
+}
+
+section.heading h1 {
+	color: #fff;
+}
+
+section.heading h2 {
+	margin-top: 0;
+}
+
+li.skills > img {
+	max-width: 80px;
+}
+
+li.skills {
+	color: #fff;
+	letter-spacing: 2.5px;
+	/*font-family: kirvy-bold;*/
+	font-family: ralewayExLi;
+
+}
+

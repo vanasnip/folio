@@ -8,33 +8,78 @@
 	<script src="js/lib/jquery-3.2.1.min.js"></script>
 	<script src="js/lib/angular.min.js"></script>
 	<script src="js/lib/angular-route.js"></script>
+	<style>
+		@font-face {			
+			font-family: kirvy-bold;
+			src: url(styles/fonts/kirvy-bold.otf);		
+		}
+
+		@font-face {
+			font-family: ralewayExLi;
+			src: url(styles/fonts/RalewayExLi.otf);
+		}
+	</style>
 
 	<title>Ivan.M</title>
 </head>
 <body ng-app="myApp">
 
 <main class="fluid-container">
-	<section class="row">
-		<div class="col-xs-9 name-title">
-			<h1>Ivan Mamenemuno</h1>
-			<h2>Front-End Developer</h2>
-		</div>
-		<div class="col-xs-3">
-			<img src="imgs/ivanM.png" alt="">
-		</div>
-	</section>
-	<section>
-		<ul class="col-xs-12">
-			<li class="col-sm-4 skills skills-HTML"><h4>HTML</h4></li>
-			<li class="col-sm-4 skills skills-CSS"><h4>CSS</h4></li>
-			<li class="col-sm-4 skills skills-BOOTSTRAP"><h4>BOOTSTRAP</h4></li>
-			<li class="col-sm-6 skills skills-JS"><h4>JS</h4></li>
-			<li class="col-sm-6 skills skills-MVC"><h4>MVC</h4></li>
-			<li class="col-sm-4 skills skills-ANGULAR"><h4>ANGULAR</h4></li>
-			<li class="col-sm-4 skills skills-GULP"><h4>GULP</h4></li>
-			<li class="col-sm-4 skills skills-GIT"><h4>GIT</h4></li>
-		</ul>
-	</section>
+	<div class="row">
+		<section class="col-xs-12 heading">
+			<div class="col-xs-9 name-title">
+				<h1>Ivan Mamenemuno</h1>
+				<h2>Front-End Developer</h2>
+			</div>
+			<div class="col-xs-3">
+				<img src="imgs/ivanM.png" alt="">
+			</div>
+		</section>
+		<section>
+			<ul class="col-xs-12 ul-skills">
+				<li class="col-xs-12 col-xs-12 col-sm-4 skills skills-html">
+					<h4 class="col-xs-10 col-sm-9">HTML</h4>
+					<img class="col-xs-3 col-sm-3" src="imgs/html5.svg" alt="">
+				</li>
+				<li class="col-xs-12 col-xs-6 col-sm-4 skills skills-css">
+					<h4 class="col-xs-9">CSS</h4>
+					<img class="col-xs-3" src="imgs/html5.svg" alt="">
+				</li>
+				<li class="col-xs-12 col-xs-6 col-sm-4 skills skills-bootstrap">
+					<h4 class="col-xs-9">BOOTSTRAP</h4>
+					<img class="col-xs-3" src="imgs/html5.svg" alt="">
+				</li>
+				<li class="col-xs-12 col-xs-12 col-sm-6 skills skills-js">
+					<h4 class="col-xs-10 col-sm-10">JS</h4>
+					<img class="col-xs-3 col-sm-2" src="imgs/html5.svg" alt="">
+				</li>
+				<li class="col-xs-12 col-xs-6 col-sm-6 skills skills-angular">
+					<h4 class="col-xs-9 col-sm-10">ANGULAR</h4>
+					<img class="col-xs-3 col-sm-2" src="imgs/html5.svg" alt="">
+				</li>
+				<li class="col-xs-12 col-xs-6 col-sm-4 skills skills-git">
+					<h4 class="col-xs-9 col-sm-9">GIT</h4>
+					<img class="col-xs-3 col-sm-3" src="imgs/html5.svg" alt="">
+				</li>
+				<li class="col-xs-12 col-xs-12 col-sm-4 skills skills-gulp">
+					<h4 class="col-xs-10  col-sm-9">GULP</h4>
+					<img class="col-xs-3 col-sm-3" src="imgs/html5.svg" alt="">
+				</li>
+				<li class="col-xs-12 col-xs-6 col-sm-4 skills skills-phot">
+					<h4 class="col-xs-9">PHOTOSHOP</h4>
+					<img class="col-xs-3" src="imgs/html5.svg" alt="">
+				</li>
+				<li class="col-xs-12 col-xs-6 col-sm-6 skills skills-illust">
+					<h4 class="col-xs-9 col-sm-10">ILLUSTATOR</h4>
+					<img class="col-xs-3 col-sm-2" src="imgs/html5.svg" alt="">
+				</li>
+				<li class="col-xs-12 col-xs-12 col-sm-6 skills skills-inksca">
+					<h4 class="col-xs-10 col-sm-10">INKSCAPE</h4>
+					<img class="col-xs-3 col-sm-2" src="imgs/html5.svg" alt="">
+				</li>
+			</ul>
+		</section>
+	</div>
 </main>
 	
 
