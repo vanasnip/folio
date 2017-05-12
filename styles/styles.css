@@ -41,8 +41,9 @@ section.heading h2 {
 	margin-top: 0;
 }
 
-li.skills > img {
-	max-width: 80px;
+li.skills > img.tech-icon {
+	width: 60px;
+	margin: 8px;
 }
 
 li.skills {
@@ -53,3 +54,20 @@ li.skills {
 
 }
 
+li.heading-banner img {
+	position: absolute;
+	width: 100%;
+	z-index: -1;
+}
+
+li.heading-banner h3 {
+	font-size: 35px;
+	color: #fff;
+	text-align: right;
+	font-family: ralewayExLi;
+	padding: 10px;
+}
+
+li.heading-banner {
+	overflow: hidden;
+}
